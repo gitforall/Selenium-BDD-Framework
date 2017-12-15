@@ -1,0 +1,78 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "sample1",
+        "description": "",
+        "id": "dta;sample1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9197506440,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login with user account",
+            "match": {
+              "location": "StepDefination.login_with_user_account()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "sample2",
+        "description": "",
+        "id": "dta;sample2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 76292,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Login with guest account",
+            "match": {
+              "location": "StepDefination.login_with_guest_account()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "sample3",
+        "description": "",
+        "id": "dta;sample3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1026530731,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Login with other account",
+            "match": {
+              "location": "StepDefination.login_with_other_account()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "dta",
+    "description": "",
+    "id": "dta",
+    "keyword": "Feature",
+    "uri": "D:/Hari/Selenium/ws/Cucumber/src/test/java/com/maven/cucumber/features/data.feature"
+  }
+]
